@@ -1,7 +1,7 @@
 var bingoList = {
-    "info": {
-        "combined": true
-        "version": "v10.1"
+    "info":{
+        "combined":"true",
+        "version":"v10.1"
     },
     "normal": {
         "0": [],
