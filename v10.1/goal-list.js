@@ -73,7 +73,7 @@ var bingoList = {
             {"difficulty": 11, "id": "aragog-spiders", "name": "Kill 12 spiders in the Aragog fight" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"forest":1, "selfsynergy": 0}, "weight": 0}
         ],
         "12": [
-            {"difficulty": 12, "id": "goyle-cards", "name": "6 Wizard Cards in Goyle” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 12, "id": "goyle-cards", "name": "6 Wizard Cards in Goyle" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 12, "id": "goyle-secrets", "name": "All Goyle secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 12, "id": "goyle-lumos", "name": "Cast at 8 different Lumos statues in Goyle" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 12, "id": "goyle-finish", "name": "Complete Goyle", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
@@ -87,7 +87,7 @@ var bingoList = {
         "14": [
             {"difficulty": 14, "id": "bowtruckles", "name": "Kill 10 bowtruckles", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -1}, "weight": 0},
             {"difficulty": 14, "id": "spiders-out", "name": "Kill 12 spiders outside the Aragog fight", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0},
-            {"difficulty": 14, "id": "imps", "name": "Kill 7 Imps, "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0}
+            {"difficulty": 14, "id": "imps", "name": "Kill 7 Imps", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0}
         ],
         "15": [
             {"difficulty": 15, "id": "completion-stars", "name": "4 Spell Challenge completion stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"multi":1, "selfsynergy": -4}, "weight": 0},
@@ -118,10 +118,10 @@ var bingoList = {
             {"difficulty": 19, "id": "rictu-crabs", "name": "Put 15 crabs into pits during Rictusempra" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"rictu":1, "selfsynergy": 0}, "weight": 0}
         ],
         "20": [
-            {"difficulty": 20, "id": "skurge-cards", "name": "6 Wizard Cards in Skurge” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 20, "id": "skurge-cards", "name": "6 Wizard Cards in Skurge" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 20, "id": "skurge-stars", "name": "8 different Skurge Challenge Stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 20, "id": "skurge-secrets", "name": "All Skurge secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
-            {"difficulty": 20, "id": "skurge-jump", "name": "Complete Skurge without jumping” , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 20, "id": "skurge-jump", "name": "Complete Skurge without jumping" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 20, "id": "peeves-kill", "name": "Defeat Peeves" , "rowtypes": {"card": 0, "bean": 0, "star": 15}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0}
         ],
         "21": [
@@ -142,10 +142,10 @@ var bingoList = {
         "24": [
             {"difficulty": 24, "id": "willow-beans", "name": "28 beans in Willow" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 24, "id": "willow-secrets", "name": "Activate both secrets in Willow from out of bounds" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
-            {"difficulty": 24, "id": "willow-lumos", "name": "Cast at 3 different Lumos statues in Willow”, "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0}
+            {"difficulty": 24, "id": "willow-lumos", "name": "Cast at 3 different Lumos statues in Willow", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0}
         ],
         "25": [
-            {"difficulty": 25, "id": "diffindo-cards", "name": "8 Wizard Cards in Diffindo” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 25, "id": "diffindo-cards", "name": "8 Wizard Cards in Diffindo" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 25, "id": "diffindo-secrets", "name": "All Diffindo secrets", "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 25, "id": "diffindo-jump", "name": "Complete Diffindo without jumping" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0}
         ],
@@ -254,7 +254,7 @@ var bingoList = {
             {"difficulty": 11, "id": "aragog-spiders", "name": "Kill 12 spiders in the Aragog fight" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"forest":1, "selfsynergy": 0}, "weight": 0}
         ],
         "12": [
-            {"difficulty": 12, "id": "goyle-cards", "name": "6 Wizard Cards in Goyle” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 12, "id": "goyle-cards", "name": "6 Wizard Cards in Goyle" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 12, "id": "goyle-secrets", "name": "All Goyle secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 12, "id": "goyle-lumos", "name": "Cast at 8 different Lumos statues in Goyle" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 12, "id": "goyle-finish", "name": "Complete Goyle", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
@@ -268,7 +268,7 @@ var bingoList = {
         "14": [
             {"difficulty": 14, "id": "bowtruckles", "name": "Kill 10 bowtruckles", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -1}, "weight": 0},
             {"difficulty": 14, "id": "spiders-out", "name": "Kill 12 spiders outside the Aragog fight", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0},
-            {"difficulty": 14, "id": "imps", "name": "Kill 7 Imps, "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0}
+            {"difficulty": 14, "id": "imps", "name": "Kill 7 Imps", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0}
         ],
         "15": [
             {"difficulty": 15, "id": "completion-stars", "name": "4 Spell Challenge completion stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"multi":1, "selfsynergy": -4}, "weight": 0},
@@ -299,10 +299,10 @@ var bingoList = {
             {"difficulty": 19, "id": "rictu-crabs", "name": "Put 15 crabs into pits during Rictusempra" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"rictu":1, "selfsynergy": 0}, "weight": 0}
         ],
         "20": [
-            {"difficulty": 20, "id": "skurge-cards", "name": "6 Wizard Cards in Skurge” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 20, "id": "skurge-cards", "name": "6 Wizard Cards in Skurge" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 20, "id": "skurge-stars", "name": "8 different Skurge Challenge Stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 20, "id": "skurge-secrets", "name": "All Skurge secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
-            {"difficulty": 20, "id": "skurge-jump", "name": "Complete Skurge without jumping” , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 20, "id": "skurge-jump", "name": "Complete Skurge without jumping" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 20, "id": "peeves-kill", "name": "Defeat Peeves" , "rowtypes": {"card": 0, "bean": 0, "star": 15}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0}
         ],
         "21": [
@@ -323,10 +323,10 @@ var bingoList = {
         "24": [
             {"difficulty": 24, "id": "willow-beans", "name": "28 beans in Willow" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 24, "id": "willow-secrets", "name": "Activate both secrets in Willow from out of bounds" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
-            {"difficulty": 24, "id": "willow-lumos", "name": "Cast at 3 different Lumos statues in Willow”, "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0}
+            {"difficulty": 24, "id": "willow-lumos", "name": "Cast at 3 different Lumos statues in Willow", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0}
         ],
         "25": [
-            {"difficulty": 25, "id": "diffindo-cards", "name": "8 Wizard Cards in Diffindo” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 25, "id": "diffindo-cards", "name": "8 Wizard Cards in Diffindo" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 25, "id": "diffindo-secrets", "name": "All Diffindo secrets", "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 25, "id": "diffindo-jump", "name": "Complete Diffindo without jumping" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0}
         ],
