@@ -359,9 +359,6 @@ var bingoList = {
         "info": {
             "version": "v10.1"
         },
-        "rowtypes": {},
-        "synfilters": {
-            "endon": "max -1"
-        }
+        "rowtypes": {}
     }
 };
