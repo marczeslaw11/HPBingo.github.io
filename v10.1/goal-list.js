@@ -178,15 +178,9 @@ var bingoList = {
             "version": "v10.1"
         },
         "rowtypes": {
-            "bottle": 2,
-            "gclw": 1,
-            "hookshot": 3,
-            "ms": 11
-        },
-        "synfilters": {
-            "childchu": "min 1",
-            "endon": "max -1",
-            "legitlacs": "min -2"
+            "card": 2,
+            "bean": 1,
+            "star": 3
         },
         "averageStandardDeviation": 54.28713604517094
     },
