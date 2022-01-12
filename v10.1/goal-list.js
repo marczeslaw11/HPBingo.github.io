@@ -1,7 +1,7 @@
 var bingoList = {
     "info":{
         "combined":"true",
-        "version":"v10.1"
+        "version":"v4.0"
     },
     "normal": {
         "0": [],
@@ -175,7 +175,7 @@ var bingoList = {
         "49": [],
         "50": [],
         "info": {
-            "version": "v10.1"
+            "version": "v4.0"
         },
         "rowtypes": {
             "card": 2,
@@ -356,7 +356,7 @@ var bingoList = {
         "49": [],
         "50": [],
         "info": {
-            "version": "v10.1"
+            "version": "v4.0"
         },
         "rowtypes": {}
     }
