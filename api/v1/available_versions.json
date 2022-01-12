@@ -1,6 +1,6 @@
 {
     "versions": {
-	"1": "FS v1.0"
+	"1": "FS v1.0",
         "4": "HP2 v4.0"
     },
     "default_version": "4"
