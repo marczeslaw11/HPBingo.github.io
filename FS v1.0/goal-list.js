@@ -181,3 +181,4 @@ var bingoList = {
             "version": "v10.1"
         }
 }
+};
