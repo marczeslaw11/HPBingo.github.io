@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Ocarina of Time Bingo</title>
-    <meta name="description" content="Generates 'Bingo' boards for Zelda: Ocarina of Time with any bingo version." />
-    <meta name="keywords" content="oot bingo, zelda bingo" />
+    <title>Harry Potter Bingo</title>
+    <meta name="description" content="Generates 'Bingo' boards for Harry Potter Games." />
+    <meta name="keywords" content="hp bingo" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../style/styles.css">
@@ -17,7 +17,7 @@
             <div class="container" id="pageContent">
                 <div id="bingoPage">
                     <div id="about_bingo">
-                        <h1>Ocarina of Time Bingo</h1>
+                        <h1>Harry Potter Bingo</h1>
                         <div id="newcards"></div>
                         <div style="clear:both;"></div>
                         <div style="margin-top:16px">
@@ -28,33 +28,32 @@
                         <div style="clear:both;"></div>
                         <h2>About</h2>
 
-                        <p>This is a "Bingo" board for Ocarina of Time races.</p>
+                        <p>This is a "Bingo" board for Harry Potter races.</p>
                         <p>To win, you must complete 5 of the tasks in a row horizontally, vertically, or diagonally.
                         </p>
                         <p>The seed number is used to generate the board. Changing the seed will make a new board.</p>
                         <p>You can click on the squares to turn them green and red. This may help you organize your
                             route planning.</p>
-                        <p>For OoT Bingo, there are some specific rules in place:</p>
+                        <p>For HP Bingo, there are some specific rules in place:</p>
                         <ul>
-                            <li>Banned Tricks for Bingo: "Using Deku Stick as Adult", "Get Item Manipulation (GIM)",
-                                "Using Bombchus Out of Bounds", "Obtaining the Eyeball Frog without presenting the
-                                Prescription",
-                                "Stale Reference Manipulation (SRM)", and all forms of Arbitrary Code Execution.</li>
-                            <li>Item specific explanations:<br>
-                                "At least 1 skulltula from each dungeon": Only dungeons with blue warps are required.
-                                <br>
-                                "X Songs": Scarecrow's Song does not count.<br>
-                                "Frog's HP": You only need to get one of the frog's HPs.<br>
-                                "5 Zora Area HPs": Ice Cavern and Jabu Jabu does not count. <br>
-                                "X Deku Sticks / Deku Nuts / Beans": Item must display visually in inventory to
-                                count.<br>
-                                "X Boss Keys": Boss keys for child dungeons obtained through RBA count.<br>
-                                "X Hearts (No Duping)": Using RBA to write Heart Pieces into the inventory does not
-                                count as duping and is allowed.
+                            <li>Bingo Specific Instructions: We use a custom mod for Bingo runs, developed by MaxG and EmilyPloszaj, the mod includes the following changes:
+                            <ul><li>The game starts in the Entry Hall in the post Chamber game state with all spells unlocked</li>
+                                <li>All areas are unlocked from the beginning of the game (including the Gryffindor Challenge and Dumbledore's Office)</li>
+                                <li>The Gold Wizard Card Challenge is unlocked at 20 Silver Cards instead of 40</li>
+                                <li>Night Grounds is available after clearing Willow</li></ul>
                             </li>
+                            <li>Item specific explanations:<br>
+                                "Complete X Challenge (with or without jumping)": The challenge is completed upon taking the normal exit of the level, taking alternate exits or warping is not allowed (you must collect the completion star in spell challenges)
+                                <br>
+                                "Complete X Challenge without jumping": You only need to do this once, you are allowed to jump on subsequent visits.<br>
+                                "10 Bronze Wizard Cards without getting a health increase": Quidditch Warp out of a Bronze Card Hess<br>
+                                "X different Challenge Stars": You do not need to get all of them in a single trip, dying will still reset any progress<br>
+                                "8 Unique Flobberworm Mucus": You can only purchase 1, and only collect 1 from the Girl's Bathroom, buying from 2 different vendors does not count.<br>
+                                "Stack 5 Mushrooms in Diffindo": You must have a single stack at least 5 mushrooms high<br>
+                                </li>
                             <li>If it says to have an item, you must actually keep it. For example, if it says to have
-                                "Blue Potion," you
-                                must not drink it, and you must still have it in your inventory at the time you finish
+                                "15 Potions," you
+                                must not drink them, and you must still have it in your inventory at the time you finish
                                 getting all 5 objectives. </li>
                             <li>When an item may be marked as completed: <br>
                                 Song: When the text says "You have learned the..." <br>
@@ -63,16 +62,12 @@
                                 Beat a Boss/Enemy: When you strike the last blow. <br>
                                 If Wrong Warping, any items or goals associated with the wrong warp are obtained upon
                                 completion of the Wrong Warp. </li>
-                            <li>For collection goals such as "8 hearts", "5 songs", "3 unused keys", etc, you are
+                            <li>For collection goals such as "1000 beans", "15 potions", "17 challenge stars", etc, you are
                                 allowed to exceed the required amount.</li>
-                            <li>For "Plant 5 Beans" etc it is not allowed to plant multiple beans in the same location
-                                (e.g. by duping soft soil patches).</li>
                         </ul>
-                        <p class="note">GENERATOR: Originally written and designed by Narcissa. Improved by Giuocob. v9
-                            redesign by Saltor. Frequency Balancing by prettybigjoe. <br>
-                            GOAL LIST: Original goal list by Narcissa. v9.3 data collection and coordination by Gombill.
-                            Goal timing and data collection by Exodus, Tob3000, Runnerguy2489, Tasselhoff, Juwk, and
-                            others in the community.</p>
+                        <p class="note">GENERATOR: Originally written and designed by Narcissa. Improved by Giuocob. <br>
+                            GOAL LIST: Original goal list by EmilyPloszaj. v2.0-4.0 updated by Myelin and ComplexBeaver <br>
+                            WEBSITE BACKEND: Forked from OoTBingo by Scaramanga and xwillmarktheplace</p>
                     </div>
                     <div id="results">
                         <table id="bingo" aria-describedby="Bingo Board">
