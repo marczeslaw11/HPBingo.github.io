@@ -178,6 +178,6 @@ var bingoList = {
 { name: "Flipendo Duo in 3 Games (1GBC/2GBC/2PS1/3GBA)” },
 ],
 "info": {
-            "version": "v10.1"
+            "version": "v1.0"
         }
 }};
