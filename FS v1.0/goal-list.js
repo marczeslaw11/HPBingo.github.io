@@ -180,4 +180,4 @@ var bingoList = {
 "info": {
             "version": "v10.1"
         }
-}
+}};
