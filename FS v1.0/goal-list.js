@@ -176,4 +176,8 @@ var bingoList = {
 { name: "Meet Ghouls in 2 Different Years (2GBC/2PS1/3Xbox)” },
 { name: "Collect 100 Chocolate Frogs from the World” },
 { name: "Flipendo Duo in 3 Games (1GBC/2GBC/2PS1/3GBA)” },
-]
+],
+"info": {
+            "version": "v10.1"
+        }
+}
