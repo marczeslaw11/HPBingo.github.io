@@ -1,7 +1,7 @@
 var bingoList = {
 "info":
 {
-	"combined": "true"
+	"combined": "true",
 	"version": "v1.0"},
 "normal": {"1":  [
 { name: "Hogwarts Chess Champion (5PC)" },
