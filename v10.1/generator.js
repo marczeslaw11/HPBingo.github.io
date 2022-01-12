@@ -198,7 +198,7 @@ bingoGenerator = function(bingoList, opts) {
         }
         for (var i = 1; i <= 25; i++) {
             var getDifficulty = bingoBoard[i].difficulty;
-            var RNG = Math.floor(bingoList[getDifficulty].length * Math.random());
+            var RNG = Math.floor(bingoList["normal"][getDifficulty].length * Math.random());
             if (RNG == bingoList[getDifficulty].length) {
                 RNG--;
             };
