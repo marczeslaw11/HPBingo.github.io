@@ -66,7 +66,7 @@
     l(i.random(), j)
 })([], Math, 256, 6, 52);
 
-bingoGenerator = function(bingoListR, opts) {
+bingoGenerator = function(bingoList, opts) {
     var LANG = opts.lang || 'name';
     var MODE = opts.mode || "normal";
     var cardType = "Normal";
