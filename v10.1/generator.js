@@ -66,13 +66,14 @@
     l(i.random(), j)
 })([], Math, 256, 6, 52);
 
-bingoGenerator = function(bingoList, opts) {
+bingoGenerator = function(bingoListR, opts) {
     var LANG = opts.lang || 'name';
     var MODE = opts.mode || "normal";
     var cardType = "Normal";
     var SEED = opts.seed || Math.ceil(999999 * Math.random()).toString();
     var size = 5;
-
+    var bingoList = bingoListR["normal"]
+    
     // The original SRL generators were written with 1-indexed difficuty tiers.
     // If we get a goal list that is 0-indexed, hack it to be 1-indexed instead.
     if (bingoList.length === 25) {
@@ -198,7 +199,7 @@ bingoGenerator = function(bingoList, opts) {
         }
         for (var i = 1; i <= 25; i++) {
             var getDifficulty = bingoBoard[i].difficulty;
-            var RNG = Math.floor(bingoList["normal"][getDifficulty].length * Math.random());
+            var RNG = Math.floor(bingoList[getDifficulty].length * Math.random());
             if (RNG == bingoList[getDifficulty].length) {
                 RNG--;
             };
