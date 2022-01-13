@@ -1,7 +1,7 @@
 var bingoList = {
     "info":{
         "combined":"true",
-        "version":"v4.0"
+        "version":"HP2 v4.0"
     },
     "normal": {
         "0": [],
