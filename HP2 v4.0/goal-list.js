@@ -80,7 +80,7 @@ var bingoList = {
             {"difficulty": 12, "id": "fireplace", "name": "Go up the fireplace in Goyle" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0}
         ],
         "13": [
-            {"difficulty": 13, "id": "gryff-stars", "name": "8 different Challenge Stars in the Gryffindor Challenge" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 13, "id": "gryff-stars", "name": "8 different Gryffindor Challenge Stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 13, "id": "gryff-secrets", "name": "All Gryffindor Challenge secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 13, "id": "gryff-finish", "name": "Complete the Gryffindor Challenge" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0}
         ],
@@ -261,7 +261,7 @@ var bingoList = {
             {"difficulty": 12, "id": "fireplace", "name": "Go up the fireplace in Goyle" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0}
         ],
         "13": [
-            {"difficulty": 13, "id": "gryff-stars", "name": "8 different Challenge Stars in the Gryffindor Challenge" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 13, "id": "gryff-stars", "name": "8 different Gryffindor Challenge Stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 13, "id": "gryff-secrets", "name": "All Gryffindor Challenge secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0},
             {"difficulty": 13, "id": "gryff-finish", "name": "Complete the Gryffindor Challenge" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0}
         ],
