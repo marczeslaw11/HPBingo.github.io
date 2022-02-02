@@ -28,14 +28,14 @@ var bingoList = {
 	"4": [
 	{"difficulty": 4, "id": "willow-secrets", "name": "Activate both secrets in Willow from out of bounds" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 4, "id": "bath-gnomes", "name": "Spawn 12 Gnomes in the girl's bathroom" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": 0}, "weight": 0},
-	{"difficulty": 4, "id": "willow-lumos", "name": "Cast at 3 different Lumos statues in Willow”, "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 4, "id": "willow-lumos", "name": "Cast at 3 different Lumos statues in Willow", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 4, "id": "boom-frogs", "name": "3 chocolate frogs in Boomslang" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"boom":1, "selfsynergy": 0}, "weight": 0},
 
 	],
 	"5": [
 	{"difficulty": 5, "id": "boom-secrets", "name": "All Boomslang secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"boom":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 5, "id": "diffindo-stack", "name": "Stack 5 mushrooms in Diffindo" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
-	{"difficulty": 5, "id": "skurge-jump", "name": "Complete Skurge without jumping” , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 5, "id": "skurge-jump", "name": "Complete Skurge without jumping" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 5, "id": "gryff-stars", "name": "8 different Gryffindor Challenge Challenge Stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0},
 
 	],
@@ -105,11 +105,11 @@ var bingoList = {
 	"15": [
 	{"difficulty": 15, "id": "buy-broom", "name": "Buy the Nimbus 2001" , "rowtypes": {"card": 0, "bean": 25, "star": 0}, "skill":0, "time":1, "types": {"duels":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 15, "id": "matches-6", "name": "Have a score on all 6 Quidditch Matches" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"quid":1, "selfsynergy": 0}, "weight": 0},
-	{"difficulty": 15, "id": "skurge-cards", "name": "6 Wizard Cards in Skurge” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 15, "id": "skurge-cards", "name": "6 Wizard Cards in Skurge" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 15, "id": "chamber-damage", "name": "Avoid fire damage from the snake statues in Chamber" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"chamber":1, "selfsynergy": 0}, "weight": 0},
 	],
 	"16": [
-	{"difficulty": 16, "id": "goyle-cards", "name": "6 Wizard Cards in Goyle” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 16, "id": "goyle-cards", "name": "6 Wizard Cards in Goyle" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 16, "id": "slyth-secrets", "name": "All Slytherin secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"slytherin":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 16, "id": "grounds-secrets", "name": "All Grounds secrets in both day and night" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": -1}, "weight": 0},
 	{"difficulty": 16, "id": "bicorn-secrets", "name": "All Bicorn secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"bicorn":1, "selfsynergy": 0}, "weight": 0},
@@ -119,7 +119,7 @@ var bingoList = {
 	{"difficulty": 17, "id": "potions-15", "name": "15 potions" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 17, "id": "stars-17", "name": "17 different Challenge Stars" , "rowtypes": {"card": 0, "bean": 0, "star": 50}, "skill":0, "time":1, "types": {"stars":1, "selfsynergy": -1}, "weight": 0},
 	{"difficulty": 17, "id": "forest-secrets", "name": "All Forest secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"forest":1, "selfsynergy": 0}, "weight": 0},
-	{"difficulty": 17, "id": "imps", "name": "Kill 7 Imps, "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0},
+	{"difficulty": 17, "id": "imps", "name": "Kill 7 Imps", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0},
 
 	],
 	"18": [
@@ -142,7 +142,7 @@ var bingoList = {
 
 	],
 	"21": [
-	{"difficulty": 21, "id": "diffindo-cards", "name": "8 Wizard Cards in Diffindo” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 21, "id": "diffindo-cards", "name": "8 Wizard Cards in Diffindo" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 21, "id": "buy-8", "name": "Buy 8 Wizard Cards" , "rowtypes": {"card": 10, "bean": 50, "star": 0}, "skill":0, "time":1, "types": {"duels":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 21, "id": "completion-stars", "name": "4 Spell Challenge completion stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"multi":1, "selfsynergy": -4}, "weight": 0},
 	{"difficulty": 21, "id": "beans-2000", "name": "Have 2000 beans" , "rowtypes": {"card": 40, "bean": 100, "star": 0}, "skill":0, "time":1, "types": {"duels":1, "selfsynergy": 0}, "weight": 0},
@@ -231,14 +231,14 @@ var bingoList = {
 	"4": [
 	{"difficulty": 4, "id": "willow-secrets", "name": "Activate both secrets in Willow from out of bounds" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 4, "id": "bath-gnomes", "name": "Spawn 12 Gnomes in the girl's bathroom" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": 0}, "weight": 0},
-	{"difficulty": 4, "id": "willow-lumos", "name": "Cast at 3 different Lumos statues in Willow”, "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 4, "id": "willow-lumos", "name": "Cast at 3 different Lumos statues in Willow", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"willow":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 4, "id": "boom-frogs", "name": "3 chocolate frogs in Boomslang" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"boom":1, "selfsynergy": 0}, "weight": 0},
 
 	],
 	"5": [
 	{"difficulty": 5, "id": "boom-secrets", "name": "All Boomslang secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"boom":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 5, "id": "diffindo-stack", "name": "Stack 5 mushrooms in Diffindo" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
-	{"difficulty": 5, "id": "skurge-jump", "name": "Complete Skurge without jumping” , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 5, "id": "skurge-jump", "name": "Complete Skurge without jumping" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 5, "id": "gryff-stars", "name": "8 different Gryffindor Challenge Challenge Stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"gryff":1, "selfsynergy": 0}, "weight": 0},
 
 	],
@@ -308,11 +308,11 @@ var bingoList = {
 	"15": [
 	{"difficulty": 15, "id": "buy-broom", "name": "Buy the Nimbus 2001" , "rowtypes": {"card": 0, "bean": 25, "star": 0}, "skill":0, "time":1, "types": {"duels":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 15, "id": "matches-6", "name": "Have a score on all 6 Quidditch Matches" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"quid":1, "selfsynergy": 0}, "weight": 0},
-	{"difficulty": 15, "id": "skurge-cards", "name": "6 Wizard Cards in Skurge” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 15, "id": "skurge-cards", "name": "6 Wizard Cards in Skurge" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"skurge":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 15, "id": "chamber-damage", "name": "Avoid fire damage from the snake statues in Chamber" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"chamber":1, "selfsynergy": 0}, "weight": 0},
 	],
 	"16": [
-	{"difficulty": 16, "id": "goyle-cards", "name": "6 Wizard Cards in Goyle” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 16, "id": "goyle-cards", "name": "6 Wizard Cards in Goyle" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"goyle":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 16, "id": "slyth-secrets", "name": "All Slytherin secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"slytherin":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 16, "id": "grounds-secrets", "name": "All Grounds secrets in both day and night" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": -1}, "weight": 0},
 	{"difficulty": 16, "id": "bicorn-secrets", "name": "All Bicorn secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"bicorn":1, "selfsynergy": 0}, "weight": 0},
@@ -322,7 +322,7 @@ var bingoList = {
 	{"difficulty": 17, "id": "potions-15", "name": "15 potions" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 17, "id": "stars-17", "name": "17 different Challenge Stars" , "rowtypes": {"card": 0, "bean": 0, "star": 50}, "skill":0, "time":1, "types": {"stars":1, "selfsynergy": -1}, "weight": 0},
 	{"difficulty": 17, "id": "forest-secrets", "name": "All Forest secrets" , "rowtypes": {"card": 10, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"forest":1, "selfsynergy": 0}, "weight": 0},
-	{"difficulty": 17, "id": "imps", "name": "Kill 7 Imps, "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0},
+	{"difficulty": 17, "id": "imps", "name": "Kill 7 Imps", "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"kill":1, "selfsynergy": -2}, "weight": 0},
 
 	],
 	"18": [
@@ -345,7 +345,7 @@ var bingoList = {
 
 	],
 	"21": [
-	{"difficulty": 21, "id": "diffindo-cards", "name": "8 Wizard Cards in Diffindo” , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
+	{"difficulty": 21, "id": "diffindo-cards", "name": "8 Wizard Cards in Diffindo" , "rowtypes": {"card": 10, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"diffindo":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 21, "id": "buy-8", "name": "Buy 8 Wizard Cards" , "rowtypes": {"card": 10, "bean": 50, "star": 0}, "skill":0, "time":1, "types": {"duels":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 21, "id": "completion-stars", "name": "4 Spell Challenge completion stars" , "rowtypes": {"card": 0, "bean": 0, "star": 25}, "skill":0, "time":1, "types": {"multi":1, "selfsynergy": -4}, "weight": 0},
 	{"difficulty": 21, "id": "beans-2000", "name": "Have 2000 beans" , "rowtypes": {"card": 40, "bean": 100, "star": 0}, "skill":0, "time":1, "types": {"duels":1, "selfsynergy": 0}, "weight": 0},
