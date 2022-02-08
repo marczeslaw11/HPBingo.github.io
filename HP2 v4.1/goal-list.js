@@ -6,7 +6,7 @@ var bingoList = {
     "normal": {
         "0": [],
         "1": [
-            {"difficulty": 1, "id": "pigs", "name": "Cast at all 3 of the pigs near Hagrid's Hut" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": 0}, "weight": 0},
+            {"difficulty": 1, "id": "pigs", "name": "Tickle all 3 of the pigs near Hagrid's Hut" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 1, "id": "gate", "name": "Get behind the Quidditch gate" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 1, "id": "hut", "name": "Get on top of Hagrid's Hut" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": 0}, "weight": 0},
 	{"difficulty": 1, "id": "balcony", "name": "16 beans on Lockhart's balcony" , "rowtypes": {"card": 0, "bean": 0, "star": 0}, "skill":0, "time":1, "types": {"castle":1, "selfsynergy": 0}, "weight": 0},
