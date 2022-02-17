@@ -171,24 +171,25 @@ bingoGenerator = function(bingoListR, opts) {
 
         function checkLine(i, typesA) {
             var synergy = 0;
+			var selfsynergy = 0;
             for (var j = 0; j < lineCheckList[i].length; j++) {
                 var typesB = bingoBoard[lineCheckList[i][j] + 1].types;
                 if (typeof typesA != 'undefined' && typeof typesB != 'undefined') {
-                    for (var k = 0; k < typesA.length; k++) {
-                        for (var l = 0; l < typesB.length; l++) {
-                            if (typesA[k] == typesB[l]) {
-                                synergy++;
-                                if (k == 0) {
-                                    synergy++
-                                };
-                                if (l == 0) {
-                                    synergy++
-                                };
-                            }
+                    for ([keyA, valA] of Object.entries(typesA)) {
+                        for ([keyB, valB] of Object.entries(typesB)) {
+                            if (keyA == 'selfsynergy'){
+								if (valA < selfsynergy){
+									selfsynergy = valA;
+								}
+							}
+							else if (keyA == keyB) {
+                                synergy+=valA;
+                            };
                         }
                     }
                 }
             }
+			console.log(synergy);
             return synergy;
         }
         var bingoBoard = [];
